@@ -10,6 +10,14 @@ on:
       - main  # Triggers the workflow on pull request to the main branch
 
 jobs:
+  test_job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: print hello
+        run: echo hello kamesh
+
+
   echo_job: # job-name
     # The type of machine to run on (GitHub-hosted runner)
     runs-on: ubuntu-latest
