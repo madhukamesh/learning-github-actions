@@ -26,9 +26,6 @@ jobs:
       - name: Print workspace
         run: echo ${{ github.workspace }}
 
-      - name: Print directory inside
-        run: |
-          ls -al
 
       - name: Print all varialbes in github context
         run: |
